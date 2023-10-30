@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tableauViz {
+         
+        }
+    </style>
+</head>
+<body>
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+    <tableau-viz id="tableauViz" style="width: 100%;">
+    </tableau-viz>
+
+    <script type="text/javascript">
+        const tviz = document.getElementById("tableauViz")
+        tviz.src = 'https://public.tableau.com/views/DashboardProject1ITDA/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link'
+    </script>
+</body>
+</html>
+
+
+
